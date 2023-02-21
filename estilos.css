@@ -5,6 +5,7 @@
 }
 
 
+
 /* Estilos para el encabezado */
 
 header {
@@ -33,7 +34,7 @@ nav a {
 
 /* Estilos para las imagenes */
 #img_tejido {
-  width: 200px;
+  width: 20%;
   max-width: 200px;
   height: auto;
   display: block;
@@ -41,15 +42,16 @@ nav a {
 }
 
 #img_ig {
-  width: 30px;
-  max-width: 100px;
-  max-height: 100px;
+  width: 2%;
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   margin: 0% auto;
   position: absolute;
-  top: 13px;
-  left: 1878px;
+  top:12px;
+  left: 1875px;
 }
+
 /* Estilos para el formulario */
 form {
   margin: 20px 0;
@@ -80,6 +82,7 @@ button[type="submit"] {
   margin: 0 auto;
 }
 
+
 /* Estilo del Final de la Pagina */
 
 body{
@@ -98,4 +101,32 @@ footer{
 }
 
 
+/* Estilos para pantallas grandes */
+
+body {
+  font-size: 18px;
+}
+
+
+/* Estilos para pantallas medianas */
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+
+/* Estilos para pantallas pequeñas */
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+body {
+  max-width: 100%;
+  height: auto;
+}
 
